@@ -62,6 +62,6 @@ The good thing about dividing by powers of 2 (as well as multiplying by powers o
 
 However, one thing to note is that division of positive and negative numbers are slightly different because right shifting will cause approximation to the nearest integer less than that number. In reality, we want an approximation to 0. In order to deal with this situation, we need check if one of our numbers is a negative number. In that case, we will need to use the trick `(num1 >>> num2) - 1`. 
 
-### Note
+## Note
 * Testbenches are only for testing purposes. You may change the testcases on you own. 
 * Please do not copy/use the code if you are current a DAV member.
